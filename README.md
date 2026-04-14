@@ -1,2 +1,1 @@
-# TextMining
-A text mining mini project exploring NLP techniques such as sentiment analysis, topic modelling, clustering and classification on real-world datasets.
+This project explores multiple Natural Language Processing (NLP) techniques including sentiment analysis, classification, clustering, and topic modeling. The goal is to compare different models and understand their performance across various types of text data.
