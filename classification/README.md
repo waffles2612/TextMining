@@ -9,12 +9,12 @@ The objective of this project is to classify news articles into predefined categ
 1. Data
 * Input files:
 
-  * `train.csv`
-  * `test.csv`
+  * train.csv
+  * test.csv
 * Each dataset contains:
 
-  * `text` (news article)
-  * `label` (category)
+  * text (news article)
+  * label (category)
 
 2. Feature Extraction
 * TF-IDF Vectorization:
@@ -33,7 +33,7 @@ The following models are trained using TF-IDF features:
 **Model Evaluation**
 Each model is evaluated using:
 * Accuracy Score
-* Precision, Recall, F1-score (classification report)
+* Precision, Recall, F1-score
 
 A comparison graph is generated:
 `model_accuracy.png`: Displays accuracy of all models
@@ -67,7 +67,7 @@ classification/
 ├── model_accuracy.png
 ├── ablation_graph.png
 └── README.md
-
+```
 **How to Run**
 
 1. Install Dependencies
