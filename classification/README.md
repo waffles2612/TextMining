@@ -32,6 +32,7 @@ The following models are trained using TF-IDF features:
 * Support Vector Machine (Linear SVM)
 
 **Model Evaluation**
+
 Each model is evaluated using:
 * Accuracy Score
 * Precision, Recall, F1-score
