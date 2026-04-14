@@ -1,4 +1,5 @@
 **Text Classification (News Dataset)**
+
 This module implements and evaluates multiple machine learning models for news text classification using TF-IDF features. It also includes an ablation study to analyze how vectorization methods and text length impact performance.
 
 The objective of this project is to classify news articles into predefined categories using traditional Natural Language Processing (NLP) techniques. The project compares different models and studies the effect of feature extraction choices.
