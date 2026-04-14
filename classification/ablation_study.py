@@ -14,11 +14,11 @@ y_train = train['label']
 X_test_full = test['text']
 y_test = test['label']
 
-# --------- Create SHORT TEXT version ---------
+# Create SHORT TEXT version
 X_train_short = X_train_full.str.split().str[:10].str.join(" ")
 X_test_short = X_test_full.str.split().str[:10].str.join(" ")
 
-# --------- Function to train and evaluate ---------
+# Function to train and evaluate 
 def run_experiment(vectorizer, X_train, X_test, name):
     X_train_vec = vectorizer.fit_transform(X_train)
     X_test_vec = vectorizer.transform(X_test)
@@ -32,11 +32,11 @@ def run_experiment(vectorizer, X_train, X_test, name):
     print(f"{name} Accuracy: {acc:.4f}")
     return acc
 
-# --------- Experiments ---------
+#  Experiments
 
 results = []
 
-# 1. TF-IDF (Full Text)
+# TF-IDF (Full Text)
 acc = run_experiment(
     TfidfVectorizer(stop_words='english', max_features=5000),
     X_train_full, X_test_full,
@@ -44,7 +44,7 @@ acc = run_experiment(
 )
 results.append(("TF-IDF", "Full", acc))
 
-# 2. CountVectorizer (Full Text)
+# CountVectorizer (Full Text)
 acc = run_experiment(
     CountVectorizer(stop_words='english', max_features=5000),
     X_train_full, X_test_full,
@@ -52,7 +52,7 @@ acc = run_experiment(
 )
 results.append(("Count", "Full", acc))
 
-# 3. TF-IDF (Short Text)
+# TF-IDF (Short Text)
 acc = run_experiment(
     TfidfVectorizer(stop_words='english', max_features=5000),
     X_train_short, X_test_short,
@@ -60,7 +60,7 @@ acc = run_experiment(
 )
 results.append(("TF-IDF", "Short", acc))
 
-# 4. CountVectorizer (Short Text)
+# CountVectorizer (Short Text)
 acc = run_experiment(
     CountVectorizer(stop_words='english', max_features=5000),
     X_train_short, X_test_short,
@@ -68,11 +68,12 @@ acc = run_experiment(
 )
 results.append(("Count", "Short", acc))
 
-# --------- Print Summary Table ---------
+# Summary Table 
 print("\nFinal Results:")
 for vec, text_type, acc in results:
     print(f"{vec} + {text_type}: {acc:.4f}")
 
+#Visulaize
 import matplotlib.pyplot as plt
 
 labels = [
