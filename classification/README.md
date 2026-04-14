@@ -64,7 +64,7 @@ classification/
 │
 ├── classifiers_news.py
 ├── ablation_study.py
-├── conversion.py
+├── conversion.py (Converts original dataset from parquet format to CSV)
 ├── train_sample.csv
 ├── test_sample.csv
 ├── model_accuracy.png
