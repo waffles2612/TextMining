@@ -1,7 +1,7 @@
 
 ---
 
-## 📌 Topic Modelling
+## Topic Modelling
 
 ### Overview
 Comparative study of three unsupervised topic modeling techniques applied to a corpus of text documents to discover hidden thematic structures without labeled data.
@@ -42,7 +42,7 @@ nltk.download('punkt_tab')
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Place your `.txt` documents inside the `sample_data/` folder
 2. Run `topic_modelling.py` in Google Colab or Jupyter Notebook
@@ -50,7 +50,7 @@ nltk.download('punkt_tab')
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Model | Speed | Interpretability | Accuracy |
 |---|---|---|---|
@@ -62,7 +62,7 @@ nltk.download('punkt_tab')
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - Python 3.x
 - Gensim
@@ -73,13 +73,4 @@ nltk.download('punkt_tab')
 
 ---
 
-## 👩‍💻 Author
 
-**waffles2612**  
-[GitHub Profile](https://github.com/waffles2612)
-
----
-
-## 📜 License
-
-This project is for academic purposes only.
