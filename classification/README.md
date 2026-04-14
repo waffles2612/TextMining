@@ -36,9 +36,10 @@ Each model is evaluated using:
 * Precision, Recall, F1-score
 
 A comparison graph is generated:
-`model_accuracy.png`: Displays accuracy of all models
+model_accuracy.png: Displays accuracy of all models
 
 **Ablation Study**
+
 The ablation study evaluates how different design choices affect performance.
 
 Variables Tested:
@@ -53,7 +54,7 @@ Variables Tested:
 **Output**
 
 * Accuracy printed for each experiment
-* Graph saved as: `ablation_graph.png`
+* Graph saved as: ablation_graph.png
 
 **Project Structure**
 
