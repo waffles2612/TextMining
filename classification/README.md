@@ -9,12 +9,13 @@ The objective of this project is to classify news articles into predefined categ
 1. Data
 * Input files:
 
-  * train.csv
-  * test.csv
+  * train_sample.csv
+  * test_sample.csv
 * Each dataset contains:
 
   * text (news article)
   * label (category)
+Note: A smaller sample of the original dataset is included in this repository for demonstration purposes due to file size limitations.
 
 2. Feature Extraction
 * TF-IDF Vectorization:
@@ -64,8 +65,8 @@ classification/
 ├── classifiers_news.py
 ├── ablation_study.py
 ├── conversion.py
-├── train.csv
-├── test.csv
+├── train_sample.csv
+├── test_sample.csv
 ├── model_accuracy.png
 ├── ablation_graph.png
 ├── requirements.txt
