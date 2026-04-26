@@ -5,8 +5,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.svm import LinearSVC
 
 # Load data
-train = pd.read_csv("train.csv")
-test = pd.read_csv("test.csv")
+train = pd.read_csv("train_sample.csv")
+test = pd.read_csv("test_sample.csv")
 
 X_train_full = train['text']
 y_train = train['label']
