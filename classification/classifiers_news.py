@@ -6,8 +6,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
 
 # Load data
-train = pd.read_csv("train.csv")
-test = pd.read_csv("test.csv")
+train = pd.read_csv("train_sample.csv")
+test = pd.read_csv("test_sample.csv")
 
 X_train = train['text']
 y_train = train['label']
