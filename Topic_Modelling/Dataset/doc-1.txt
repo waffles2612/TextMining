@@ -1,0 +1,6 @@
+Artificial intelligence and machine learning are transforming the world. 
+Data science helps analyze large datasets. 
+Deep learning is widely used in image recognition.
+Machine learning algorithms improve automatically through experience. 
+Artificial intelligence is used in chatbots and recommendation systems. 
+Neural networks are an important concept in AI.
