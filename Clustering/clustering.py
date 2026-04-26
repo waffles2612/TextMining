@@ -119,7 +119,7 @@ X1, tfidf1 = preprocess(texts1)
 run_models(X1, tfidf1, "20 Newsgroups")
 
 # ---------- DATASET 2 ----------
-imdb_path = r"C:\Users\pragn\OneDrive\Desktop\IMDB Dataset.csv"
+imdb_path = r"C:\Users\pragn\OneDrive\Desktop\imdb_sample.csv"
 
 if os.path.exists(imdb_path):
     df2 = pd.read_csv(imdb_path)
@@ -131,7 +131,7 @@ else:
     print("\n❌ IMDb dataset not found. Fix path.")
 
 # ---------- DATASET 3 ----------
-twitter_path = r"C:\Users\pragn\OneDrive\Desktop\training.1600000.processed.noemoticon.csv"
+twitter_path = r"C:\Users\pragn\OneDrive\Desktop\twitter_dataset.csv"
 
 if os.path.exists(twitter_path):
     df3 = pd.read_csv(twitter_path, encoding='latin-1', header=None)
