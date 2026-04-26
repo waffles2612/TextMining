@@ -16,7 +16,7 @@ The objective of this project is to classify news articles into predefined categ
   * text (news article)
   * label (category)
     
-Note: A smaller subset of the original dataset is included in this repository due to file size limitations. Therefore, the reported results may differ from those obtained using the full dataset.
+**Note**: A smaller subset of the original dataset is included in this repository due to file size limitations. Therefore, the reported results may differ from those obtained using the full dataset.
 
 2. Feature Extraction
 * TF-IDF Vectorization:
